@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoverwaltungBackend", "AutoverwaltungBackend.csproj", "{509AD165-0677-40F3-9DC3-8B1B3F98A90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{509AD165-0677-40F3-9DC3-8B1B3F98A90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509AD165-0677-40F3-9DC3-8B1B3F98A90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509AD165-0677-40F3-9DC3-8B1B3F98A90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509AD165-0677-40F3-9DC3-8B1B3F98A90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FDA984C-246E-4904-8579-9B17047F93BF}
+	EndGlobalSection
+EndGlobal
