@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using AutoverwaltungBackend.Models.Interfaces;
+using AutoverwaltungBackend.Models.Classes;
 
 
 namespace AutoverwaltungBackend.Controllers
@@ -10,14 +12,14 @@ namespace AutoverwaltungBackend.Controllers
     {
         [HttpGet]
         [Route("[controller]")]
-        public IEnumerable<Auto> getAll()
+        public IEnumerable<IAuto> getAll()
         {
-            return new Auto[0];
+            return new Auto[] { new Auto() };
         }
 
         [HttpGet]
         [Route("[controller]/{id}")]
-        public Auto getById(short id)
+        public IAuto getById(short id)
         {
             return new Auto();
         }

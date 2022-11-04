@@ -1,4 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using AutoverwaltungBackend.Models.Interfaces;
+using AutoverwaltungBackend.Models.Classes;
+
+
 
 namespace AutoverwaltungBackend.Controllers
 {
@@ -8,14 +12,14 @@ namespace AutoverwaltungBackend.Controllers
     {
         [HttpGet]
         [Route("[controller]/{id}")]
-        public ActionResult<AutoStatus> getAutoStatus(short id)
+        public IActionResult getAutoStatus(short id)
         {
 
             return new OkObjectResult(new AutoStatus());
         }
         [HttpPatch]
         [Route("[controller]/{id}")]
-        public ActionResult<AutoStatus> updateAutoStatus(short id)
+        public IActionResult updateAutoStatus(short id)
         {
 
             return new OkObjectResult(new AutoStatus());
