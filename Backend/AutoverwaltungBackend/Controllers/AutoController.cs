@@ -24,14 +24,14 @@ namespace AutoverwaltungBackend.Controllers
 
         [HttpPut]
         [Route("[controller]")]
-        public ActionResult addAuto([FromBody]Auto auto)
+        public IActionResult addAuto([FromBody]Auto auto)
         {
             return new OkObjectResult(auto);
         }
 
         [HttpDelete]
         [Route("[controller]")]
-        public ActionResult deleteAuto(short id)
+        public IActionResult deleteAuto(short id)
         {
             return new OkObjectResult(new Auto());
         }
